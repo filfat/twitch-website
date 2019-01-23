@@ -5,7 +5,9 @@ import './Banner.css';
 class Banner extends Component {
     render() {
         return (
-			<div></div>
+			<div className="Banner">
+                <div className="background"></div>
+            </div>
         );
     }
 }

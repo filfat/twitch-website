@@ -16,7 +16,8 @@ class Header extends Component {
                         <Link to="/videos">Videos</Link>
                         <Link to="/block">Blog</Link>
 
-                        <Link to="/twitch" className="twitch">Follow on Twitch</Link>
+                        <Link to="/twitch" className="button twitch">Follow on Twitch</Link>
+                        <Link to="/twitch" className="button youtube">Subscribe on Youtube</Link>
                     </nav>
                 </div>
             </header>

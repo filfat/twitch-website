@@ -1,0 +1,42 @@
+@import '../../scss/shared.scss';
+
+.VideoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100vw;
+    min-height: calc(100vh - 350px);
+    padding: 25px;
+
+    background: #333;
+    color: #fff;
+
+    .main-panel {
+        width: 70%;
+
+        .video {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+    }
+    .side-panel {
+        width: 30%;
+        padding-left: 25px;
+
+        .chat {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+    }
+
+    .title {
+        padding: 15px 0px;
+
+        font-size: 1.75rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+}

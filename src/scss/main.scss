@@ -19,10 +19,13 @@ html, body {
 }
 
 main {
-    max-width: 1000px;
     width: 100%;
     padding: 0px;
-    margin: 10px auto 0px auto;
+    margin: 0px auto;
+
+    .content-container {
+        max-width: 1024px;
+    }
 }
 
 * {
