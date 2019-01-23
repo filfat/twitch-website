@@ -5,8 +5,8 @@
     min-height: calc(100vh - 350px);
     padding: 25px;
 
-    background: #333;
-    color: #fff;
+    background: #ddd;
+    color: #333;
 
     .wrapper {
         display: flex;
@@ -14,7 +14,8 @@
         justify-content: center;
 
         position: relative;
-        max-width: 1920px;
+        width: 1920px;
+        max-width: 85vw;
         margin: 0px auto;
 
         .main-panel {
