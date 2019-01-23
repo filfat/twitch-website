@@ -1,4 +1,51 @@
 @import '../../scss/shared.scss';
 
 header {
+    position: fixed;
+    top: 0px; left: 0px; right: 0px;
+    width: 100vw;
+    height: 75px;
+    padding: 0px 25px;
+
+    .content {
+        position: relative;
+        text-transform: uppercase;
+
+        .logo {
+            font-size: 28px;
+            line-height: 75px;
+        }
+
+        nav {
+            position: absolute;
+            top: 0px; right: 0px;
+            height: 75px;
+
+            line-height: 75px;
+
+            a {
+                display: inline-block;
+                margin-left: 25px;
+
+                &.twitch {
+                    margin: 15px 0px 15px 25px;
+                    padding: 0px 15px;
+
+                    background: #6441A4;
+                    border-radius: 25px;
+
+                    line-height: 45px;
+                    transition: 250ms all;
+
+                    &:hover {
+                        background: rgb(111, 72, 184);
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        height: 75px;
+    }
 }

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
-class Home extends Component {
-    componentDidMount() {
-        document.title = "Home"; // FIXME:
-    }
+import Banner from '../../Components/Banner';
 
+class Home extends Component {
     render() {
         return (
 			<div className="home align-center">
+                <Banner></Banner>
                 <h1>Hello World!</h1>
 			</div>
         );
