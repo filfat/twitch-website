@@ -23,8 +23,8 @@ main {
     padding: 0px;
     margin: 0px auto;
 
-    .content-container {
-        max-width: 1024px;
+    .View {
+        min-height: calc(100vh - 50px);
     }
 }
 

@@ -1,0 +1,9 @@
+@import '../../scss/shared.scss';
+
+.PostContainer {
+    padding: $content-padding;
+
+    .container {
+        max-width: $content-max-width;
+    }
+}

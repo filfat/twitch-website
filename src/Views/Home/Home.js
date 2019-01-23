@@ -6,7 +6,7 @@ import VideoContainer from '../../Components/VideoContainer';
 class Home extends Component {
     render() {
         return (
-			<div className="HomePage">
+			<div className="View HomePage">
                 <Banner></Banner>
                 <VideoContainer />
 			</div>

@@ -3,7 +3,7 @@
 .VideoContainer {
     width: 100vw;
     min-height: calc(100vh - 350px);
-    padding: 25px;
+    padding: $content-padding;
 
     background: #ddd;
     color: #333;
@@ -14,7 +14,7 @@
         justify-content: center;
 
         position: relative;
-        width: 1920px;
+        width: $content-max-width;
         max-width: 85vw;
         margin: 0px auto;
 
@@ -32,7 +32,7 @@
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: space-between;
-                padding-top: 25px;
+                padding-top: $content-padding;
 
                 .VideoThumbnail {
                     flex-basis: calc(20% - 15px);
@@ -42,7 +42,7 @@
         }
         .side-panel {
             width: 30%;
-            padding-left: 25px;
+            padding-left: $content-padding;
 
             .chat {
                 display: flex;

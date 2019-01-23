@@ -21,6 +21,7 @@ class Header extends Component {
 
                         <Link to="/twitch" className="button twitch">Follow on Twitch</Link>
                         <Link to="/youtube" className="button youtube">Subscribe on Youtube</Link>
+                        <Link to="/discord" className="button discord">Chat on Discord</Link>
                     </nav>
                 </div>
             </header>

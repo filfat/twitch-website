@@ -6,7 +6,7 @@ header {
     top: 0px; left: 0px; right: 0px;
     width: 100vw;
     height: 75px;
-    padding: 0px 25px;
+    padding: 0px $content-padding;
 
     .content {
         position: relative;
@@ -36,18 +36,19 @@ header {
             height: 75px;
 
             line-height: 75px;
+            user-select: none;
 
             a {
                 display: inline-block;
-                margin-left: 25px;
+                margin-left: $content-padding;
 
                 font-size: 1.15rem;
 
                 &.button {
-                    margin: 15px 0px 15px 25px;
+                    margin: 15px 0px 15px $content-padding;
                     padding: 0px 15px;
 
-                    border-radius: 25px;
+                    border-radius: $content-padding;
 
                     line-height: 45px;
                     transition: 250ms all;
@@ -65,6 +66,14 @@ header {
 
                         &:hover {
                             background: rgb(224, 55, 49);
+                        }
+                    }
+
+                    &.discord {
+                        background: #7289DA;
+
+                        &:hover {
+                            background: rgb(123, 148, 236);
                         }
                     }
                 }
