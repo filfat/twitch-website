@@ -1,0 +1,14 @@
+@import '../../scss/shared.scss';
+
+.VideoThumbnail {
+    position: relative;
+    background: black;
+
+    cursor: pointer;
+    transition: 250ms all;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

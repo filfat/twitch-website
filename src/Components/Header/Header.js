@@ -9,7 +9,10 @@ class Header extends Component {
         return (
             <header>
                 <div className="content">
-                    <div className="logo">Loeya</div>
+                    <div className="logo">
+                        Loeya
+                        <span className="subtitle">The Loeyalists Club</span>
+                    </div>
 
                     <nav>
                         <Link to="/">Home</Link>

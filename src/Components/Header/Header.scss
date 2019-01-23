@@ -2,7 +2,7 @@
 
 header {
     z-index: 5;
-    position: fixed;
+    position: absolute;
     top: 0px; left: 0px; right: 0px;
     width: 100vw;
     height: 75px;
@@ -14,8 +14,17 @@ header {
         color: #fff;
 
         .logo {
-            font-size: 28px;
-            line-height: 75px;
+            position: relative;
+            font-size: 26px;
+            line-height: 55px;
+            padding-bottom: 20px;
+
+            .subtitle {
+                position: absolute;
+                left: 0px; bottom: 0px;
+
+                font-size: 16px;
+            }
         }
 
         nav {
@@ -40,16 +49,20 @@ header {
                     line-height: 45px;
                     transition: 250ms all;
 
-                    &:hover {
-                        background: rgb(111, 72, 184);
-                    }
-
                     &.twitch {
                         background: #6441A4;
+
+                        &:hover {
+                            background: rgb(111, 72, 184);
+                        }
                     }
 
                     &.youtube {
                         background: #c4302b;
+
+                        &:hover {
+                            background: rgb(224, 55, 49);
+                        }
                     }
                 }
             }
