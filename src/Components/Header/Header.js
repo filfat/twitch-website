@@ -20,7 +20,7 @@ class Header extends Component {
                         <Link to="/blog">Blog</Link>
 
                         <Link to="/twitch" className="button twitch">Follow on Twitch</Link>
-                        <Link to="/twitch" className="button youtube">Subscribe on Youtube</Link>
+                        <Link to="/youtube" className="button youtube">Subscribe on Youtube</Link>
                     </nav>
                 </div>
             </header>

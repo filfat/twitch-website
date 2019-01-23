@@ -1,4 +1,26 @@
 @import '../../scss/shared.scss';
 
 footer {
+    width: 100vw;
+    min-height: 50px;
+
+    background: #34495e;
+
+    .content {
+        height: 50px;
+        padding: 0px 25px;
+
+        color: #fefefe;
+        background: #2c3e50;
+
+        .copyrights {
+            height: 50px;
+
+            line-height: 50px;
+
+            a {
+                color: #fefefe;
+            }
+        }
+    }
 }
