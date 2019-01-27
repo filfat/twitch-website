@@ -10,8 +10,8 @@ class Header extends Component {
             <header>
                 <div className="content">
                     <div className="logo">
-                        Loeya
-                        <span className="subtitle">The Loeyalists Club</span>
+                        filiphsandstrom
+                        <span className="subtitle"></span>
                     </div>
 
                     <nav>

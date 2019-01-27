@@ -7,7 +7,7 @@ class Video extends Component {
         return (
 			<div className="Video">
                 <iframe
-                    src="https://player.twitch.tv/?channel=Loeya&muted=true"
+                    src="https://player.twitch.tv/?channel=filiphsandstrom&muted=true"
                     height="100%"
                     width="100%"
                     frameborder="0"

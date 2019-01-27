@@ -13,7 +13,7 @@ class App extends Component {
             <div className="App">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Loeya</title>
+                    <title>filiphsandstrom</title>
                 </Helmet>
                 
                 <Header />

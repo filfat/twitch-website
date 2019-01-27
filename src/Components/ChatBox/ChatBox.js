@@ -19,7 +19,7 @@ class ChatBox extends Component {
                 <iframe frameborder="0"
                     scrolling="yes"
                     id="chat_embed"
-                    src="https://www.twitch.tv/embed/Loeya/chat"
+                    src="https://www.twitch.tv/embed/filiphsandstrom/chat"
                     height="100%"
                     width="100%">
                 </iframe>
