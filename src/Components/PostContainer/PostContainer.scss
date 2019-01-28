@@ -5,5 +5,34 @@
 
     .container {
         max-width: $content-max-width;
+        margin: 0px auto;
+
+        .section-title {
+            display: block;
+            width: 720px;
+            max-width: 75%;
+            margin: 15px auto;
+            padding-left: 5px;
+
+            color: $color-hidden;
+
+            font-size: 2.25rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        .post-div-link {
+            display: block;
+            width: 720px;
+            max-width: 75%;
+            margin: 15px auto;
+            padding-left: 5px;
+
+            color: $color-hidden;
+
+            text-transform: uppercase;
+            font-weight: 600;
+        }
     }
 }

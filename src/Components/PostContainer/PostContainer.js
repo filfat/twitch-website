@@ -7,6 +7,7 @@ class PostContainer extends Component {
         return (
 			<div className="PostContainer">
                 <div className="container">
+                    <div class="section-title">{this.props.title}</div>
                     {this.props.children}
                 </div>
             </div>

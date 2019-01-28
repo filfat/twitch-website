@@ -8,9 +8,7 @@ class Footer extends Component {
             <footer>
                 <div className="content">
                     <div className="copyrights">
-                        <span>&copy; Loeya</span>
-                        <span> - </span>
-                        <span>Website developed by <a href="http://twitch.tv/filiphsandstrom">Filiph Sandström</a></span>
+                        <span>&copy; Filiph Sandström</span>
                     </div>
                 </div>
             </footer>

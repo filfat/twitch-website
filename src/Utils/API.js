@@ -1,25 +1,24 @@
-import axios from 'axios';
+import Prismic from 'prismic-javascript';
 import Logger from './logger';
+
+const API_ENDPOINT = 'https://filiph-twitch.cdn.prismic.io/api/v2';
 
 class API {
     constructor () {
-        this.axios = axios.create({
-            baseURL: 'https://localhost:5000/',
-            timeout: 5000
-        });
+        this.Prismic = Prismic.getApi(API_ENDPOINT);
     }
 
-    Get (path) {
-        Logger.Info('API', 'Calling "' + path + '"');
-
-        const call = this.axios.get(path);
-        call.then((res) => {
-            Logger.Info('API', 'Response from "' + path + '":');
-            Logger.Object(res);
-        }).catch((err) => {
-            Logger.Error('API', 'Response from "' + path + '": "' + err + '"');
-        });
-        return call;
+    linkResolver(doc) {
+        switch(doc.type) {
+            case 'page':
+                return '/' + doc.uid;
+                break;
+            case 'post':
+                return '/blog/' + doc.uid;
+                break;
+            default:
+                return '/' + doc.id;
+        }
     }
 }
 
