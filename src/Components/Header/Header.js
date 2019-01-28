@@ -19,9 +19,9 @@ class Header extends Component {
                         <Link to="/videos">Videos</Link>
                         <Link to="/blog">Blog</Link>
 
-                        <Link to="/twitch" className="button twitch">Follow on Twitch</Link>
-                        <Link to="/youtube" className="button youtube">Subscribe on Youtube</Link>
-                        <Link to="/discord" className="button discord">Chat on Discord</Link>
+                        <a target="_blank" href="https://twitch.tv/filiphsandstrom" className="button twitch">Follow on Twitch</a>
+                        <a target="_blank" href="https://www.youtube.com/c/FiliphSandstr%C3%B6m" className="button youtube">Subscribe on Youtube</a>
+                        <a target="_blank" href="https://discord.gg/eYjgRR2" className="button discord">Chat on Discord</a>
                     </nav>
                 </div>
             </header>

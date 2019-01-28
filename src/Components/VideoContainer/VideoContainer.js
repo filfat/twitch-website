@@ -7,6 +7,12 @@ import './VideoContainer.css';
 
 class VideoContainer extends Component {
     render() {
+        if(this.props.children) return (
+            <div className="VideoContainer">
+                <div class="content">{this.props.children}</div>
+            </div>
+        );
+
         let recommended_videos = [];
         for(let i = 0; i <= 10; i++) {
             recommended_videos.push(<VideoThumbnail />);

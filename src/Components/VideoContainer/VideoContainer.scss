@@ -2,11 +2,16 @@
 
 .VideoContainer {
     width: 100vw;
-    min-height: calc(100vh - 350px);
     padding: $content-padding;
 
     background: #ddd;
     color: #333;
+
+    .content {
+        .VideoThumbnail {
+            
+        }
+    }
 
     .wrapper {
         display: flex;
